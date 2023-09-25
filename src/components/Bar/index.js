@@ -1,12 +1,12 @@
 import styles from './styles.module.css'
 
-const Bar = ({ value, maxValue }) => {
+const Bar = ({ value}) => {
   return (
     <div className>
       <div className={styles.max}>
         <div
           className={styles.value}
-          style={{ width: `${(value / maxValue) * 100}%` }}
+          style={{ width: `${(value)}%` }}
         ></div>
       </div>
     </div>

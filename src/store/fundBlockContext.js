@@ -6,15 +6,14 @@ export function FundBlockProvider(props) {
 
 
 
-  const [nft, setNft] = useState();
+  const [funds, setFunds] = useState(70);
   
   return (
     <div>
       <FundBlockContext.Provider
         value={{
-          nft,
-          setNft,
-          
+          funds,
+          setFunds,
          
         }}
       >

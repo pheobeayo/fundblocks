@@ -1,7 +1,10 @@
 import viralIMG from "../../assets/viralIMG.png";
 import Bar from "../Bar";
+import { FundBlockContext } from "../../store/fundBlockContext";
+import { useContext } from "react";
 
-const ProjectCard = ({value, maxValue}) => {
+const ProjectCard = () => {
+  const {funds} = useContext(FundBlockContext);
   
   return (
     <div className="text-white rounded-lg border border-spacing-4">
@@ -28,10 +31,10 @@ const ProjectCard = ({value, maxValue}) => {
           </button>
         </div>
 
-        <Bar value={value} maxValue={maxValue} />
+        <Bar value={funds} />
         
         <p className="text-white text-base sm:text-lg font-normal leading-relaxed">
-          0% fundraising goal met{" "}
+          {funds}% fundraising goal met{" "}
         </p>
 
         <div className="flex py-[40px] gap-6">
