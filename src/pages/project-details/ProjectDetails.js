@@ -8,6 +8,7 @@ import samuel from '../../assets/samuel.svg';
 import incentive from '../../assets/incentive.svg';
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
+import ProjectCard from '../../components/project-card';
 
 
 
@@ -162,16 +163,14 @@ export const ProjectOverview1 = () => {
     return (
         <>
             <section className='md:flex md:justify-between md:py-2 h-full'>
-                <div className='w-full md:w-[45%] md:h-[30vh] h-3/4'>
-                    <img
+                <div className='w-full  md:w-[45%] md:h-[30vh] h-3/4 '>
+                    {/* <img
                         src={incentive}
                         className='object-cover mb-10 h-40% w-40% object-center'
                         quality={100}
                         alt='m1'
-                    />
-
-
-
+                    /> */}
+                    <ProjectCard />
                 </div>
 
                 <div className='md:w-[50%] w-full  text-white md:mt-0 mt-5 rounded-lg border border-spacing-4'>
