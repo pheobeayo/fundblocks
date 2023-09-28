@@ -5,37 +5,6 @@ import Home from "./pages/home/Home";
 import SignupSubmit from "./pages/sign-up/SignupSubmit";
 import ProjectCreation from "./pages/project-creation/CreateProject";
 import ProjectDetails from "./pages/project-details/ProjectDetails";
-import '@rainbow-me/rainbowkit/styles.css';
-import { darkTheme, getDefaultWallets, RainbowKitProvider } from '@rainbow-me/rainbowkit';
-import { configureChains, createConfig, WagmiConfig } from 'wagmi';
-import { polygon } from 'wagmi/chains';
-import { publicProvider } from 'wagmi/providers/public';
-
-const { chains, publicClient, webSocketPublicClient } = configureChains(
-  [
-    // mainnet,
-    polygon,
-    //polygonMumbai,
-    // optimism,
-    // arbitrum,
-    // goerli,
-    // ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === 'true' ? [goerli] : []),
-  ],
-  [publicProvider()]
-);
-
-const { connectors } = getDefaultWallets({
-  appName: 'RainbowKit App',
-  projectId: 'YOUR_PROJECT_ID',
-  chains,
-});
-
-const wagmiConfig = createConfig({
-  autoConnect: true,
-  connectors,
-  publicClient,
-  webSocketPublicClient,
-});
 
 
 
@@ -47,11 +16,6 @@ const wagmiConfig = createConfig({
 
 function App() {
   return (
-    <WagmiConfig config={wagmiConfig}>
-    <RainbowKitProvider chains={chains}
-    theme={darkTheme({
-      accentColor: 'rgb(93,228,247)'
-    })}>
    
     <BrowserRouter>
     <Routes>
@@ -67,8 +31,6 @@ function App() {
     </Routes>
     </BrowserRouter>
 
-    </RainbowKitProvider>
-    </WagmiConfig> 
     
   );
 }
