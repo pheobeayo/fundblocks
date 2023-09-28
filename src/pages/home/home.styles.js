@@ -73,6 +73,7 @@ justify-content: center;
     color: #fff;
     font-weight: 500;
     line-height:2rem;
+    margin-top: 1rem;
    
  }
 
