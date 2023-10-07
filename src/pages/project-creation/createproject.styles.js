@@ -90,12 +90,16 @@ export const FormHeader = styled.div`
         font-size: 1.2rem;
         color:#fff;
     }
+
+    & img{
+        margin-top:1.5rem;
+    }
     `;
 
 export const Button = styled.button`
     display: flex;
     background:linear-gradient(150deg, #69FEB0 40%, #5DE4F7 );
-    width:36rem;
+    width:34rem;
     border: 1px solid #5DE4F7; 
     border-radius:5px;
     color:#000;

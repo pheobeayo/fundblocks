@@ -5,7 +5,7 @@ import { device } from "../../utils/device";
 export const HomeParent = styled.div`
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display:flex;
     flex-direction: column;
     background:#121113;
 `;
@@ -13,8 +13,7 @@ export const HomeParent = styled.div`
 export const HomeWrapper = styled.div`
      width: 100vw;
      height: 150vh;
-     display: flex;
-     flex-direction: column;
+     
      background:#121113;
 
  @media ${device.laptopL} { 
@@ -54,8 +53,8 @@ export const BarWrapper = styled.div`
 export const CentreWrapper = styled.div`
      width: 100vw;
      height: 150vh;
-     display: flex;
-     flex-direction: column;
+     display:flex;
+     flex-direction:column;
      background:#121113;
  
    
@@ -112,7 +111,6 @@ position: absolute;
 top: 85%;
 left: 75%;
 transform: translate(-50%, -50%);
-color:#fff;
 align-content:center;
 justify-content: center;
 
@@ -166,15 +164,7 @@ margin-top:2rem;
 
 `;
 
-export const ImageContainer = styled.section`
- width: 100%;
- height: 50%;
- display: flex;
- gap: 1.5rem;
- justify-content: space-around;
- align-items: center;
- margin-top: 25rem;
-`;
+
 
 export const WelcomeWrapper = styled.div`
 width: 100%;
@@ -182,7 +172,7 @@ height: 50%;
 display: flex;
 background:#121113;
 align-items: center;
-margin-top:50rem;
+
 `;    
 
 export const OngoingContainer = styled.div`
