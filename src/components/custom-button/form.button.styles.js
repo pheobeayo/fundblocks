@@ -5,7 +5,7 @@ export const NavigateButton = styled.button`
   background: linear-gradient(150deg, #69FEB0 40%, #5DE4F7 );
   border-radius: 4px;
   padding: 12px 30px;
-  width: ${(props) => (props.width ? props.width : "28.5rem")};
+  width: ${(props) => (props.width ? props.width : "26.5rem")};
   height: 2.8rem;
   color: ${(props) => (props.color ? props.color : "#fff")};
   font-weight: 500;

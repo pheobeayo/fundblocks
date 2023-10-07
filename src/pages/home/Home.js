@@ -32,6 +32,7 @@ import Projects from "../../components/projects/Projects";
 import Crypto from "../../components/crypto/Crypto";
 import Subfooter from "../../components/sub-footer/Subfooter";
 import Footer from "../../components/footer/Footer";
+import {Link} from "react-router-dom";
 
 
 
@@ -61,8 +62,8 @@ const Home = () => {
                         <h2>Unleash the Potential of Your Startup with Decentralized
                             <br></br>Funding and Support</h2>
                         <ButtonContainer>
-                            <LButton>Launch Project</LButton>
-                            <EButton>Explore More</EButton>
+                          <Link  to='/create-project' style={{ textDecoration: 'none', color: 'black' }}>  <LButton>Launch Project</LButton></Link>
+                          <Link to='/project-details' style={{ textDecoration: 'none', color: 'white' }}>  <EButton  >Explore More</EButton></Link>
                         </ButtonContainer>
                     </TextContainer>
                     <HeroContainer><img src={landingimage} alt="landingimage" /></HeroContainer>

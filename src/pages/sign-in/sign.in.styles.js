@@ -61,7 +61,7 @@ export const Wrapper = styled.div`
 
 export const SecondWrapper = styled.div`
     width: 75vw;
-    height: 145vh;
+    height: 150vh;
     background:linear-gradient(150deg, #fff 30%, #69FEB0 60%, #5DE4F7 );
     display: flex;
     flex-direction: column;
