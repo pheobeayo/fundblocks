@@ -51,7 +51,7 @@ const Welcome = () => {
                           <br></br>  and streamlined transactions</p>
                     </SummaryCard>
                 </SummaryContainer>
-                <Link to='/sustainable-milestones' style={{ textDecoration: 'none', color: 'black' }}> <LButton>Launch Project</LButton></Link>
+                <Link to='/create-project' style={{ textDecoration: 'none', color: 'black' }}> <LButton>Launch Project</LButton></Link>
             </WelcomeWrapper>
 
 

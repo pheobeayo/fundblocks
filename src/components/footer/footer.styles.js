@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterParent = styled.div`
     width: 100vw;
     height: 50vh;
-    background:#121113;
+    background:#0D130F;
 
     
 `;
@@ -11,7 +11,7 @@ export const FooterParent = styled.div`
 export const SubcenterWrapper = styled.div`
     width: 100vw;
     height: 50vh;
-    background:#121113;
+    background:#0D130F;
    
 
     
@@ -33,8 +33,8 @@ height: 5%;
 display: flex;
 flex-direction: row;
 align-items:center;
-color: #0F160F;
 margin-left: 2rem;
+
 
 & img {
 width: 15rem;
@@ -51,7 +51,6 @@ export const ProductDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #121113;
     margin-left: 1rem;
     color: #ffffff;
     margin-top: 5rem;
@@ -73,7 +72,6 @@ export const CompanyDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #121113;
     color: #ffffff;
     margin-top: 5rem;
 
@@ -94,7 +92,6 @@ export const ResourcesDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #121113;
     color: #ffffff;
     margin-top: 5rem;
 
@@ -116,7 +113,6 @@ export const ResourcesDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #121113;
     color: #ffffff;
     margin-top: 5rem;
     margin-left:4rem;
