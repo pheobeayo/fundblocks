@@ -30,7 +30,7 @@ const Home = () => {
 
 
     return (
-        <main className='bg-[#121113]'>
+        <main className='bg-[#121113] h-screen'>
             <div className="mx-8 pt-16">
                 <Navbar />
             </div>
@@ -48,7 +48,7 @@ const Home = () => {
 
                 <HeroContainer><img src={landingimage} alt="landingimage" /></HeroContainer>
 
-                <div className="mt-80 justify-center">
+                <div className="mt-44 justify-center">
                     <Welcome />
                 </div>
                 <div className="justify-center pr-6">
