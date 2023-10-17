@@ -38,7 +38,7 @@ export const Header = styled.div`
     align-items: left;
     justify-content:left;
     align-content: left;
-    margin-top:3rem;
+    margin-top:10rem;
     margin-left:3rem;
 
     & h2 {
@@ -46,6 +46,7 @@ export const Header = styled.div`
         font-size:2rem;
         line-height:2.5rem;
         font-weight:500;
+        
      }
 
      & h3 {
@@ -80,6 +81,7 @@ export const Header = styled.div`
         font-size: 1rem;
         color: #fff;
         margin-left:1rem;
+        margin-top:1rem;
       }
 
       & h3 {
@@ -87,6 +89,7 @@ export const Header = styled.div`
         font-size: 1rem;
         color: #fff;
         margin-left:1rem;
+        margin-top:1rem;
       }
 
       

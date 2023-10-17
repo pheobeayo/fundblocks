@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const ProjectsParent = styled.div`
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background:#121113;

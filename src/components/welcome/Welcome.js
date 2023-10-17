@@ -7,7 +7,6 @@ import {
     Header,
     LButton
 } from "./welcome.styles";
-import line from "../../assets/line.png";
 import { Link } from "react-router-dom";
 
 
@@ -28,7 +27,7 @@ const Welcome = () => {
                 </Header>
                 <SummaryContainer>
                     <SummaryCard >
-                        <img src={line} alt="line" />
+                        <hr/>
                         <h3>Decentralization and Security</h3>
                         <p>Fundblock utilizes blockchain's
                             <br></br>decentralized architecture to enhance
@@ -37,14 +36,14 @@ const Welcome = () => {
 
                     </SummaryCard>
                     <SummaryCard>
-                        <img src={line} alt="line" />
+                        <hr />
                         <h1>Global Accessibility</h1>
                         <p>By integrating blockchain, FundBlock
                             <br></br> creates a global stage for startups &
                             <br></br>  investors to engage in crowdfunding </p>
                     </SummaryCard>
                     <SummaryCard >
-                        <img src={line} alt="line" />
+                        <hr/>
                         <h1>Efficiency and Speed</h1>
                         <p>Through integration with the Polygon
                          <br></br>   blockchain, FUNDBLOCK enables rapid
