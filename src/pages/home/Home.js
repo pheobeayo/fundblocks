@@ -48,7 +48,7 @@ const Home = () => {
 
                 <HeroContainer><img src={landingimage} alt="landingimage" /></HeroContainer>
 
-                <div className="mt-44 justify-center">
+                <div className="mt-43 justify-center">
                     <Welcome />
                 </div>
                 <div className="justify-center pr-6">
