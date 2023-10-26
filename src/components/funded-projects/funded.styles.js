@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import {devices} from "../../utils/device";
 
 export const ProjectsParent = styled.div`
     width: 100vw;
@@ -7,6 +7,11 @@ export const ProjectsParent = styled.div`
     display: flex;
     flex-direction: column;
     background:#121113;
+
+    @media ${devices.md} {
+      padding: 40px 40px 96px 40px;
+    }
+
 
      `;
 
@@ -23,25 +28,42 @@ export const ProjectsWrapper = styled.div`
       
 
     export const SummaryContainer1 = styled.section`
-      width: 90%;
-      height: 45%;
-      display: flex;
-      gap: 0.5rem;
-      justify-content: space-around;
-      align-items: center;
-      margin-top:7rem;
-      margin-left:5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  
+    @media ${devices.tab} {
+      flex-direction: row;
+    }
+    ${
+      '' /* width: 90%;
+    height: 45%;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+    margin-left: 5rem; */
+    };
     `;
 
     export const SummaryContainer2 = styled.section`
-      width: 90%;
-      height: 45%;
-      display: flex;
-      gap: 0.5rem;
-      justify-content: space-around;
-      align-items: center;
-      margin-top:15rem;
-      margin-left:5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 1rem;
+  
+    @media ${devices.tab} {
+      flex-direction: row;
+    }
+    ${
+      '' /* display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 5rem; */
+    }
     `;
     
 
@@ -73,6 +95,17 @@ export const ProjectsWrapper = styled.div`
      & img {
       margin-top: 1rem;
      }
+
+     @media ${devices.md} {
+      & h2 {
+        font-size: 2rem;
+      }
+    }
+    @media ${devices.tab} {
+      & h3 {
+        font-size: 1.25rem;
+      }
+    }
        
     `;
 

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {devices} from "../../utils/device";
 
 
 export const ProjectsParent = styled.div`
@@ -7,6 +8,12 @@ export const ProjectsParent = styled.div`
     display: flex;
     flex-direction: column;
     background:#121113;
+
+    
+    @media ${devices.md} {
+      padding: 40px 40px 96px 40px;
+    }
+
 
      `;
 
@@ -17,11 +24,16 @@ export const ProjectsWrapper = styled.div`
      flex-direction: column;
      background:#121113;
      color:#fff;
+     gap: 40px;
 
      & p{
         font-size: 1.5rem;
         margin-left: 25rem;
      }
+
+     @media ${devices.tab} {
+      flex-direction: row;
+    }
  
     
       `;
@@ -58,6 +70,18 @@ export const ProjectsWrapper = styled.div`
      & img {
       margin-top: 1rem;
      }
+
+     
+   @media ${devices.md} {
+      & h2 {
+        font-size: 2rem;
+      }
+    }
+    @media ${devices.tab} {
+      & h3 {
+        font-size: 1.25rem;
+      }
+    }
        
     `;
 
