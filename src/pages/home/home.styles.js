@@ -127,6 +127,9 @@ justify-content: center;
    flex-basis: 44%;
  }
 
+ @media ${devices.md} {
+  flex-basis: 70%;
+}
 
 
 `;

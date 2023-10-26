@@ -10,7 +10,6 @@ import {
 
 } from "./projects.styles";
 import arrow from "../../assets/arrow.png";
-import line2 from "../../assets/line2.png";
 
 
 
@@ -30,7 +29,7 @@ const Projects = () => {
                 </Header>
                 <SummaryWrapper>
                     <SummaryContainer1>
-                        <img src={line2} alt='line2' />
+                        <hr />
                         <h4>Types of
                             <br></br>project we are
                             <br></br>accepting</h4>
@@ -54,11 +53,11 @@ const Projects = () => {
                 </SummaryWrapper>
                 <SummaryWrapper2>
                     <SummaryContainer1>
-                        <img src={line2} alt="line2" />
+                        <hr/>
                         <h4>Possible
                             <br></br>requirement to
                             <br></br>be aware of</h4>
-                        <img src={line2} alt="line2" />
+                        <hr className='mt-24 color-[#FFDAB9]'/>
                         <h4>Caveat you
                             <br></br>should know</h4>
 

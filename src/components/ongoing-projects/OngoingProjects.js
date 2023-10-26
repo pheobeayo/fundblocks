@@ -34,14 +34,14 @@ const OngoingProjects = () => {
                 </Header>
 
                 <SummaryContainer1>
-                <Link to='/project-details' style={{ textDecoration: 'none', color: 'white' }}>   <img src={viral} alt="viral" /></Link>
-                    <img src={auto} alt="auto"/>
-                    <img src={nano} alt="nano" />
+                <Link to='/project-details' style={{ textDecoration: 'none', color: 'white' }}>   <img src={viral} alt="viral" className='lg:w-64' /></Link>
+                    <img src={auto} alt="auto" className='lg:w-64' />
+                    <img src={nano} alt="nano" className='lg:w-64'  />
                 </SummaryContainer1>
                 <SummaryContainer2>
-                    <img src={mind} alt="mind" />
-                    <img src={remote} alt="remote" />
-                    <img src={cyber} alt="cyber" />
+                    <img src={mind} alt="mind"  className='lg:w-64' />
+                    <img src={remote} alt="remote" className='lg:w-64' />
+                    <img src={cyber} alt="cyber" className='lg:w-64' />
                 </SummaryContainer2>
                 
             </ProjectsWrapper>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {devices} from "../../utils/device";
 
 
 export const WelcomeParent = styled.div`
@@ -8,8 +9,11 @@ export const WelcomeParent = styled.div`
     flex-direction: column;
     background:#121113;
 
-     `;
+    @media ${devices.md} {
+      padding: 40px 40px 96px 40px;
+    }
 
+     `;
 export const WelcomeWrapper = styled.div`
      width: 100vw;
      height: 100vh;
@@ -21,13 +25,23 @@ export const WelcomeWrapper = styled.div`
       `;
 
 export const SummaryContainer = styled.section`
-      width: 100%;
-      height: 50%;
-      display: flex;
-      gap: 1.5rem;
-      justify-content: space-around;
-      align-items: center;
-      margin-top:1rem;
+display: flex;
+flex-direction: column;
+gap: 40px;
+margin-left:15rem;
+
+@media ${devices.tab} {
+  flex-direction: row;
+}
+${ 
+  ''//   width: 100%;
+      // height: 50%;
+      // display: flex;
+      // gap: 1.5rem;
+      // justify-content: space-around;
+      // align-items: center;
+      // margin-top:1rem;
+}
     `;
     
 export const Header = styled.div`
@@ -56,11 +70,19 @@ export const Header = styled.div`
         font-weight:500;
      }
        
+     @media ${devices.md} {
+      & h2 {
+        font-size: 1rem;
+      }
+      & h3 {
+        font-size: 1rem;
+      }
+    }
     `;
 
 
 
-    export const SummaryCard = styled.div`
+export const SummaryCard = styled.div`
       width: 25%;
       height: 50%;
       display: flex;
@@ -92,7 +114,18 @@ export const Header = styled.div`
         margin-top:1rem;
       }
 
-      
+      @media ${devices.md} {
+        & h1 {
+          font-size: 0.8rem;
+        }
+        & h3 {
+          font-size: 0.8rem;
+        }
+        & p {
+          font-size: 0.8rem;
+        }
+
+      }
 
       
     `;

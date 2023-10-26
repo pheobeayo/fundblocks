@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { devices } from "../../utils/device";
+import {devices} from "../../utils/device";
 
 
 export const ProjectsParent = styled.div`
@@ -16,11 +16,14 @@ export const ProjectsParent = styled.div`
      `;
 
 export const ProjectsWrapper = styled.div`
-     width: 100vw;
-     height: 100vh;
-     display: flex;
-     flex-direction: column;
-     background:#121113;
+  display: flex;
+  flex-direction: column;
+  background:#121113;
+
+  & hr {
+    color:#FFDAB9;
+    width: 30%;
+  }
  
     
       `;
@@ -31,48 +34,57 @@ export const SummaryWrapper = styled.div`
       display: flex;
       color:#fff;
       background:#121113;
+
+
+      @media ${devices.md} {
+        flex-direction: row;
+      }
   
      
        `;
-
+     
 
 export const SummaryContainer1 = styled.section`
-display: flex;
-flex-direction: column;
-gap: 40px;
+      width: 25%;
+      height: 45%;
+      gap: 0.5rem;
+      justify-content: space-around;
+      align-items: center;
+      margin-left:10rem;
 
-@media ${devices.tab} {
-  flex-direction: row;
-}
-${''// width: 25%;
-  // height: 45%;
-  // gap: 0.5rem;
-  // justify-content: space-around;
-  // align-items: center;
-  // margin-left:10rem;
+      & img {
+        margin-top:2rem;
+      }
 
-  // & img {
-  // margin-top:2rem;
-  }
+      @media ${devices.tab} {
+        flex-direction: row;
+      }
+
+      @media ${devices.md} {
+        & h4 {
+          font-size: 0.8rem;
+        }
+      } 
     `;
 
 export const SummaryContainer2 = styled.section`
-display: flex;
-flex-direction: column;
-gap: 40px;
-margin-top: 1rem;
+      width: 45%;
+      height: 45%;
+      gap: 0.5rem;
+      justify-content: space-around;
+      align-items: center;
+      margin-left:10rem;
 
-@media ${devices.tab} {
-  flex-direction: row;
-}
-${'' // width: 45%;
-  // height: 45%;
-  // gap: 0.5rem;
-  // justify-content: space-around;
-  // align-items: center;
-  // margin-left:10rem;
+      @media ${devices.tab} {
+        flex-direction: row;
+      }
 
-  }
+      @media ${devices.md} {
+        & p {
+          font-size: 0.8rem;
+        }
+      } 
+
       
     `;
 
@@ -85,10 +97,10 @@ export const SummaryWrapper2 = styled.div`
      margin-top: 8rem;
      
        `;
+     
+    
 
-
-
-export const Header = styled.div`
+    export const Header = styled.div`
     width: 70%;
     height: 20%;
     display: flex;
@@ -117,7 +129,7 @@ export const Header = styled.div`
       margin-top: 1rem;
      }
 
-    @media ${devices.md} {
+     @media ${devices.md} {
       & h2 {
         font-size: 2rem;
       }
@@ -126,7 +138,7 @@ export const Header = styled.div`
       & h3 {
         font-size: 1.25rem;
       }
-    }
-
+    } 
     `;
 
+    

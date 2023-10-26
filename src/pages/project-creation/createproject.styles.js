@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {devices} from "../../utils/device";
 
 export const CreationParent = styled.div`
     width: 100vw;
@@ -6,6 +7,10 @@ export const CreationParent = styled.div`
     display: flex;
     flex-direction: column;
     background:#121113;
+
+    @media ${devices.md} {
+        padding: 40px 40px 96px 40px;
+      }
 
      `;
 

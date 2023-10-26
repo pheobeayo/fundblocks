@@ -4,7 +4,7 @@ import {devices} from "../../utils/device";
 
 export const ProjectsParent = styled.div`
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     background:#121113;
@@ -20,7 +20,7 @@ export const ProjectsParent = styled.div`
 
 export const ProjectsWrapper = styled.div`
      width: 100vw;
-     height: 100vh;
+     height: 60vh;
      display: flex;
      flex-direction: column;
      background:#121113;
@@ -30,10 +30,11 @@ export const ProjectsWrapper = styled.div`
 
       
 
-    export const SummaryContainer1 = styled.section`
+export const SummaryContainer1 = styled.section`
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-left:15rem;
   
     @media ${devices.tab} {
       flex-direction: row;
@@ -52,17 +53,13 @@ export const ProjectsWrapper = styled.div`
 
     
     
-
-    export const Header = styled.div`
-    width: 70%;
-    height: 20%;
+export const Header = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
     align-content: center;
-    margin-left:13rem;
-    margin-top:3rem;
+    gap: 16px;
 
     & h2 {
         color: #fff;
@@ -79,11 +76,10 @@ export const ProjectsWrapper = styled.div`
      }
 
      & img {
-      margin-top: 1rem;
+      margin-top:1rem;
      }
-
-
-     @media ${devices.md} {
+       
+    @media ${devices.md} {
       & h2 {
         font-size: 2rem;
       }
@@ -93,7 +89,6 @@ export const ProjectsWrapper = styled.div`
         font-size: 1.25rem;
       }
     }
-       
     `;
 
     
