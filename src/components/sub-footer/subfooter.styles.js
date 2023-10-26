@@ -60,6 +60,9 @@ export const SubscribeContainer = styled.div`
       
   }
 
+  @media ${devices.md} {
+    flex-direction: row;
+  }
  
     `;
 

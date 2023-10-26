@@ -39,6 +39,10 @@ export const SummaryContainer1 = styled.section`
     @media ${devices.tab} {
       flex-direction: row;
     }
+    @media ${devices.md} {
+      flex-direction: row;
+      
+    }
     ${
       '' /* width: 90%;
     height: 45%;
@@ -81,7 +85,10 @@ export const Header = styled.div`
        
     @media ${devices.md} {
       & h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+      }
+      & h3 {
+        font-size: 1rem;
       }
     }
     @media ${devices.tab} {

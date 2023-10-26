@@ -33,8 +33,14 @@ export const ProjectsWrapper = styled.div`
     gap: 40px;
     margin-left:15rem;
   
+    @media ${devices.md} {
+      flex-direction: row;
+     
+    }
+
     @media ${devices.tab} {
       flex-direction: row;
+    
     }
     ${
       '' /* width: 90%;
@@ -55,8 +61,14 @@ export const ProjectsWrapper = styled.div`
     margin-top: 1rem;
     margin-left:15rem;
   
+    @media ${devices.md} {
+      flex-direction: row;
+     
+    }
+
     @media ${devices.tab} {
       flex-direction: row;
+    
     }
     ${
       '' /* display: flex;
@@ -97,7 +109,10 @@ export const ProjectsWrapper = styled.div`
        
     @media ${devices.md} {
       & h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+      }
+      & h3 {
+        font-size: 1rem;
       }
     }
     @media ${devices.tab} {
