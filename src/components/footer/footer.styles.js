@@ -114,7 +114,9 @@ export const ResourcesDiv = styled.div`
     & p{
         line-height: 2rem;
     }
-   
+    @media ${devices.md} {
+        flex-direction: row;
+      }
     `;
 
  export const ConnectDiv = styled.div`

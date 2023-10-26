@@ -28,10 +28,15 @@ export const SummaryContainer = styled.section`
 display: flex;
 flex-direction: column;
 gap: 40px;
-margin-left:15rem;
+
 
 @media ${devices.tab} {
   flex-direction: row;
+}
+
+@media ${devices.md} {
+  flex-direction: row;
+ 
 }
 ${ 
   ''//   width: 100%;
@@ -69,15 +74,7 @@ export const Header = styled.div`
         line-height:2.5rem;
         font-weight:500;
      }
-       
-     @media ${devices.md} {
-      & h2 {
-        font-size: 1rem;
-      }
-      & h3 {
-        font-size: 1rem;
-      }
-    }
+     
     `;
 
 
@@ -114,19 +111,7 @@ export const SummaryCard = styled.div`
         margin-top:1rem;
       }
 
-      @media ${devices.md} {
-        & h1 {
-          font-size: 0.8rem;
-        }
-        & h3 {
-          font-size: 0.8rem;
-        }
-        & p {
-          font-size: 0.8rem;
-        }
-
-      }
-
+      
       
     `;
 
