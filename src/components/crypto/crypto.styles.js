@@ -31,9 +31,7 @@ export const ProjectsWrapper = styled.div`
         margin-left: 25rem;
      }
 
-     @media ${devices.tab} {
-      flex-direction: row;
-    }
+    
  
     
       `;

@@ -33,14 +33,14 @@ const FundedProjects = () => {
                 </Header>
 
                 <SummaryContainer1>
-                   <img src={brain} alt="brain" />
-                    <img src={health} alt="health"/>
-                    <img src={data} alt="data" />
+                   <img src={brain} alt="brain" className='lg:w-64'/>
+                    <img src={health} alt="health" className='lg:w-64'/>
+                    <img src={data} alt="data" className='lg:w-64'/>
                 </SummaryContainer1>
                 <SummaryContainer2>
-                    <img src={robo} alt="robo" />
-                    <img src={edu} alt="edu" />
-                    <img src={cloud} alt="cloud" />
+                    <img src={robo} alt="robo" className='lg:w-64'/>
+                    <img src={edu} alt="edu" className='lg:w-64'/>
+                    <img src={cloud} alt="cloud" className='lg:w-64'/>
                 </SummaryContainer2>
                 
             </ProjectsWrapper>

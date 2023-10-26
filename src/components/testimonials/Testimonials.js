@@ -30,9 +30,9 @@ const Testimonials = () => {
                 </Header>
 
                 <SummaryContainer1>
-                   <img src={testimonial1} alt="testimonial1" />
-                    <img src={testimonial2} alt="testimonial2"/>
-                    <img src={testimonial3} alt="testimonial3" />
+                   <img src={testimonial1} alt="testimonial1" className='lg:w-64' />
+                    <img src={testimonial2} alt="testimonial2" className='lg:w-64' />
+                    <img src={testimonial3} alt="testimonial3" className='lg:w-64' />
                 </SummaryContainer1>
                
                 

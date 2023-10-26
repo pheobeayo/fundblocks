@@ -4,7 +4,7 @@ import {devices} from "../../utils/device";
 
 export const ProjectsParent = styled.div`
     width: 100vw;
-    height: 200vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     background:#121113;
@@ -31,6 +31,7 @@ export const ProjectsWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-left:15rem;
   
     @media ${devices.tab} {
       flex-direction: row;
@@ -52,6 +53,7 @@ export const ProjectsWrapper = styled.div`
     flex-direction: column;
     gap: 40px;
     margin-top: 1rem;
+    margin-left:15rem;
   
     @media ${devices.tab} {
       flex-direction: row;
@@ -68,15 +70,12 @@ export const ProjectsWrapper = styled.div`
     
 
     export const Header = styled.div`
-    width: 70%;
-    height: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
     align-content: center;
-    margin-left:13rem;
-    margin-top:3rem;
+    gap: 16px;
 
     & h2 {
         color: #fff;

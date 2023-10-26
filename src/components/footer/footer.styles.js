@@ -1,9 +1,15 @@
 import styled from "styled-components";
+import {devices} from "../../utils/device";
 
 export const FooterParent = styled.div`
     width: 100vw;
     height: 50vh;
     background:#0D130F;
+
+
+    @media ${devices.md} {
+        padding: 40px 40px 96px 40px;
+      }
 
     
 `;
@@ -23,7 +29,10 @@ export const SubcenterWrapper = styled.div`
 export const OthersContainer = styled.div`
     width: 100vw;
     display: flex;
-   
+
+    @media ${devices.md} {
+        flex-direction: row;
+      }
   
     `;    
 
@@ -39,6 +48,7 @@ margin-left: 2rem;
 & img {
 width: 15rem;
 }
+
 
 
 `;

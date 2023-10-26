@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {devices} from "../../utils/device";
 
 export const SigninParent = styled.div`
     width: 110vw;
@@ -6,6 +7,10 @@ export const SigninParent = styled.div`
     display: flex;
     flex-direction: column;
     background:#121113;
+
+    @media ${devices.md} {
+        padding: 40px 40px 96px 40px;
+      }
 
      `;
 
