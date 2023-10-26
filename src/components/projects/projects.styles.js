@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { devices } from "../../utils/device";
 
 
 export const ProjectsParent = styled.div`
@@ -7,6 +8,10 @@ export const ProjectsParent = styled.div`
     display: flex;
     flex-direction: column;
     background:#121113;
+
+    @media ${devices.md} {
+      padding: 40px 40px 96px 40px;
+    }
 
      `;
 
@@ -29,28 +34,45 @@ export const SummaryWrapper = styled.div`
   
      
        `;
-     
+
 
 export const SummaryContainer1 = styled.section`
-      width: 25%;
-      height: 45%;
-      gap: 0.5rem;
-      justify-content: space-around;
-      align-items: center;
-      margin-left:10rem;
+display: flex;
+flex-direction: column;
+gap: 40px;
 
-      & img {
-        margin-top:2rem;
-      }
+@media ${devices.tab} {
+  flex-direction: row;
+}
+${''// width: 25%;
+  // height: 45%;
+  // gap: 0.5rem;
+  // justify-content: space-around;
+  // align-items: center;
+  // margin-left:10rem;
+
+  // & img {
+  // margin-top:2rem;
+  }
     `;
 
 export const SummaryContainer2 = styled.section`
-      width: 45%;
-      height: 45%;
-      gap: 0.5rem;
-      justify-content: space-around;
-      align-items: center;
-      margin-left:10rem;
+display: flex;
+flex-direction: column;
+gap: 40px;
+margin-top: 1rem;
+
+@media ${devices.tab} {
+  flex-direction: row;
+}
+${'' // width: 45%;
+  // height: 45%;
+  // gap: 0.5rem;
+  // justify-content: space-around;
+  // align-items: center;
+  // margin-left:10rem;
+
+  }
       
     `;
 
@@ -63,10 +85,10 @@ export const SummaryWrapper2 = styled.div`
      margin-top: 8rem;
      
        `;
-     
-    
 
-    export const Header = styled.div`
+
+
+export const Header = styled.div`
     width: 70%;
     height: 20%;
     display: flex;
@@ -94,6 +116,17 @@ export const SummaryWrapper2 = styled.div`
      & img {
       margin-top: 1rem;
      }
+
+    @media ${devices.md} {
+      & h2 {
+        font-size: 2rem;
+      }
+    }
+    @media ${devices.tab} {
+      & h3 {
+        font-size: 1.25rem;
+      }
+    }
+
     `;
 
-    
