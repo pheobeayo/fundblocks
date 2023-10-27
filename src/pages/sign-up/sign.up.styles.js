@@ -8,21 +8,27 @@ export const SignupParent = styled.div`
     flex-direction: column;
     background:#121113;
 
-    @media ${devices.md} {
-        padding: 40px 40px 96px 40px;
-      }
-
+  
 
      `;
 
 export const SignupWrapper = styled.div`
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background:#121113;
+    
+padding: 40px 32px;
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 28px;
 
+
+@media ${devices.md} {
+   padding: 0px 40px 132px 40px;
+ }
+ @media ${devices.tab} {
+   flex-direction: row;
+ }     
+                              
+ 
     `;
 
 

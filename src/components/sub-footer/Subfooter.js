@@ -1,49 +1,25 @@
 import React from "react";
-import {
-    ButtonContainer,
-    CenterWrapper,
-    SubfooterParent,
-    SearchBarContainer,
-    SearchBarForm,
-    Button,
-    SubscribeContainer
-} from "./subfooter.styles";
-
-
+import Subscriber from "../subscribe/Subscribe";
 
 const Subfooter = () => {
-    return (
+  return (
+    <div className="bg-[#181B19]">
+      <div className="mx-80 px-36">
+      <h2 className="text-white text-xl sm:text-3xl font-bold leading-10">
+        Subscribe to our mailing list
+      </h2>
+      <p className="text-justify pt-[10px] text-white text-xs sm:text-sm font-normal leading-5 sm:leading-7">
+        Join our mailing list today for exclusive updates
+        <br /> on this cutting-edge solution and more.{" "}
 
-        <SubfooterParent>
-            <CenterWrapper>
-                <SubscribeContainer>
-                    <h3>Subscribe to our mailing list</h3>
+      </p>
 
-                    <h4>Join our mailing list today for exclusive updates </h4>
-                    <p>on this cutting-edge solution and more.</p>
-
-                    <ButtonContainer>
-                        <SearchBarContainer>
-                            <SearchBarForm>
-                                <input
-                                    type="text"
-                                    className="search-input"
-                                    placeholder="Email Address"
-                                />
-                                <Button>Subscribe</Button>
-                            </SearchBarForm>
-                        </SearchBarContainer>
+      <Subscriber />
+      </div>
+    </div>
 
 
-                    </ButtonContainer>
-                </SubscribeContainer>
-
-            </CenterWrapper>
-        </SubfooterParent>
-    )
-
-
-
+  )
 }
 
-export default Subfooter;
+export default Subfooter;   

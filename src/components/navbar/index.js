@@ -22,11 +22,11 @@ const Navbar = () => {
 
 
         <ul className='flex m-auto gap-16'>
-          <li className='hidden md:inline-block text-white'><Link href={'/'}>Discover</Link></li>
-          <li className='hidden md:inline-block  text-white'><Link href={'/project-details'}>Explore</Link></li>
-          <li className='hidden md:inline-block  text-white'><Link href={'/contact-us'}>Contact us</Link></li>
-          <li className='hidden md:inline-block  text-white'><Link href={'/sign-in'}>Sign in</Link></li>
-          <li className='hidden md:inline-block  text-white'><Link href={'/sign-up'}>Sign up</Link></li>
+          <li className='hidden md:inline-block text-white'><Link to='/'>Discover</Link></li>
+          <li className='hidden md:inline-block  text-white'><Link to='/project-details'>Explore</Link></li>
+          <li className='hidden md:inline-block  text-white'><Link to='/contact-us'>Contact us</Link></li>
+          <li className='hidden md:inline-block  text-white'><Link to='/sign-in'>Sign in</Link></li>
+          <li className='hidden md:inline-block  text-white'><Link to='/sign-up'>Sign up</Link></li>
         </ul>
         <img src={searchicon} alt='searchicon' width='13px' height='13px' />
         <button class="bg-gradient-to-r from-[#69FEB0] to-[#5DE4F7] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">

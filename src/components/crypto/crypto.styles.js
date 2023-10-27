@@ -38,22 +38,19 @@ export const ProjectsWrapper = styled.div`
     }
  
     
-      `;
+`;
 
       
 
     
 
-    export const Header = styled.div`
-    width: 70%;
-    height: 20%;
+export const Header = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
     align-content: center;
-    margin-left:14rem;
-    margin-top:3rem;
+    gap: 16px;
 
     & h2 {
         color: #fff;
@@ -88,6 +85,6 @@ export const ProjectsWrapper = styled.div`
       }
     }
        
-    `;
+`;
 
     
