@@ -66,10 +66,7 @@ export const Header = styled.div`
         line-height:1rem;
      }
 
-     & img {
-      margin-top: 1rem;
-     }
-
+    
      
    @media ${devices.md} {
     & h2 {
