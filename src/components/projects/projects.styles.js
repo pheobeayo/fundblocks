@@ -95,6 +95,13 @@ export const SummaryWrapper2 = styled.div`
       color:#fff;
       background:#121113;
      margin-top: 8rem;
+
+
+     
+     @media ${devices.md} {
+      flex-direction: row;
+    }
+
      
        `;
      
@@ -125,13 +132,17 @@ export const SummaryWrapper2 = styled.div`
         line-height:1rem;
      }
        
-     & img {
-      margin-top: 1rem;
+     & img{
+      margin-top:1rem;
      }
+    
 
      @media ${devices.md} {
       & h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+      }
+      & h3 {
+        font-size: 1rem;
       }
     }
     @media ${devices.tab} {

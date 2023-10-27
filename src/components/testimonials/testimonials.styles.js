@@ -79,9 +79,7 @@ export const Header = styled.div`
         line-height:1rem;
      }
 
-     & img {
-      margin-top:1rem;
-     }
+    
        
     @media ${devices.md} {
       & h2 {
@@ -96,6 +94,8 @@ export const Header = styled.div`
         font-size: 1.25rem;
       }
     }
+
+   
     `;
 
     

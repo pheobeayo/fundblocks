@@ -19,6 +19,10 @@ export const CenterWrapper = styled.div`
     height: 50vh;
     background:#181B19;
    
+    
+  @media ${devices.md} {
+    flex-direction: row;
+  }
 
     
     
@@ -63,6 +67,11 @@ export const SubscribeContainer = styled.div`
   @media ${devices.md} {
     flex-direction: row;
   }
+
+  @media ${devices.tab} {
+    width: 80%;
+  }
+ 
  
     `;
 
