@@ -25,6 +25,7 @@ const FundedProjects = () => {
 
 
     return (
+        <div className="container mx-auto">
         <ProjectsParent>
             <ProjectsWrapper>
                 <Header><h2>Funded Projects</h2>
@@ -49,6 +50,8 @@ const FundedProjects = () => {
 
         </ProjectsParent>
 
+
+</div>
 
 
 

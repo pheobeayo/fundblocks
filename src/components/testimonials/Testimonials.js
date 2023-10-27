@@ -22,6 +22,7 @@ const Testimonials = () => {
 
 
     return (
+        <div className="container mx-auto">
         <ProjectsParent>
             <ProjectsWrapper>
                 <Header><h2>Testimonials</h2>
@@ -41,7 +42,7 @@ const Testimonials = () => {
 
 
         </ProjectsParent>
-
+       </div>
 
 
 

@@ -26,6 +26,7 @@ const OngoingProjects = () => {
 
 
     return (
+        <div className="container mx-auto">
         <ProjectsParent>
             <ProjectsWrapper>
                 <Header><h2>Ongoing Projects</h2>
@@ -50,7 +51,7 @@ const OngoingProjects = () => {
 
         </ProjectsParent>
 
-
+        </div>
 
 
     )
