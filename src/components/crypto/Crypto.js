@@ -29,7 +29,8 @@ const Crypto = () => {
                     <img src={arrow} alt="arrow" />
                     <h3>Meet our well renowned and regonised partners</h3>
                 </Header>
-                <img src={partners} alt="partners"  width="70%" style={{marginLeft:'15rem'}}/>
+               
+        <div className="flex flex-col gap-8 sm:flex-row sm:gap-y-10 flex-wrap lg:gap-14 xl:gap-20"> <img src={partners} alt="partners"  width="70%" style={{marginLeft:'15rem'}}/></div>
 
             </ProjectsWrapper>
 

@@ -28,10 +28,14 @@ export const ProjectsWrapper = styled.div`
 
      & p{
         font-size: 1.5rem;
-        margin-left: 25rem;
+        margin-left: 32rem;
      }
 
-    
+     @media ${devices.tab} {
+      & p {
+        font-size: 1rem;
+      }
+    }
  
     
       `;
@@ -48,12 +52,12 @@ export const ProjectsWrapper = styled.div`
     align-items: center;
     justify-content:center;
     align-content: center;
-    margin-left:15rem;
+    margin-left:14rem;
     margin-top:3rem;
 
     & h2 {
         color: #fff;
-        font-size:2.5rem;
+        font-size:2rem;
         line-height:0.5rem;
      }
 
@@ -61,7 +65,7 @@ export const ProjectsWrapper = styled.div`
 
      & h3 {
         color: #fff;
-        margin-bottom: 2rem;
+        margin-bottom: 1.8rem;
         line-height:1rem;
      }
 
