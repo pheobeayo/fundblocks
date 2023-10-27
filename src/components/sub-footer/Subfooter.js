@@ -4,7 +4,8 @@ import Subscriber from "../subscribe/Subscribe";
 const Subfooter = () => {
   return (
     <div className="bg-[#181B19]">
-      <div className="mx-80 px-36">
+      <div className="container mx-auto px-20 sm:px-[80px] pb-[50px]">
+      
       <h2 className="text-white text-xl sm:text-3xl font-bold leading-10">
         Subscribe to our mailing list
       </h2>
@@ -15,6 +16,7 @@ const Subfooter = () => {
       </p>
 
       <Subscriber />
+      
       </div>
     </div>
 

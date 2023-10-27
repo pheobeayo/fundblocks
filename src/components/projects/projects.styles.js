@@ -4,7 +4,7 @@ import {devices} from "../../utils/device";
 
 export const ProjectsParent = styled.div`
     width: 100vw;
-    height: 150vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     background:#121113;
@@ -121,21 +121,19 @@ export const SummaryWrapper2 = styled.div`
 
 
     & h2 {
-        color: #fff;
-        font-size:2.5rem;
-        line-height:0.5rem;
-     }
+      color: #fff;
+      font-size:2rem;
+      line-height:normal;
+   }
 
-    
+  
 
-     & h3 {
-        color: #fff;
-        margin-bottom: 2rem;
-        line-height:1rem;
-     }
-       
-   
-    
+   & h3 {
+      color: #fff;
+      margin-bottom: 1.8rem;
+      line-height:normal;
+   }
+
 
      @media ${devices.md} {
       & h2 {

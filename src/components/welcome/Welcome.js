@@ -1,16 +1,5 @@
 import React from "react";
-import {
-    WelcomeParent,
-    WelcomeWrapper,
-    SummaryCard,
-    SummaryContainer,
-    Header,
-    LButton
-} from "./welcome.styles";
 import { Link } from "react-router-dom";
-
-
-
 
 
 
@@ -19,54 +8,64 @@ const Welcome = () => {
 
 
     return (
-        <WelcomeParent>
-            <WelcomeWrapper>
-                <Header><h2>Welcome to FundBlock, where innovation
-                    <br></br>intersects with blockchain prowess</h2>
+<div className="bg-[#121113]">
+          <div className="container mx-auto px-8 sm:px-[80px] py-[100px]">
+            <h2 className="text-white text-3xl pb-[48px] font-bold leading-10">
+            Welcome to FundBlock, where innovation <br /> intersects with blockchain prowess
+            </h2>
 
-                </Header>
-                <SummaryContainer>
-                    <SummaryCard >
-                        <hr/>
-                        <h3>Decentralization and Security</h3>
-                        <p>Fundblock utilizes blockchain's
-                            <br></br>decentralized architecture to enhance
-                            <br></br>security.
-                        </p>
+            <div className="sm:grid sm:grid-cols-3 sm:space-x-0 gap-4">
+              {/* first content */}
+              <div>
+                <div className=" w-80 h-px border border-white"></div>
+                <h3 className="text-white text-2xl font-bold leading-loose pt-[40px]">
+                Decentralization and Security
+                </h3>
+                <p className="text-white text-xl font-normal leading-7">
+                Fundblock utilizes blockchain's <br />decentralized architecture to enhance{" "}
+                  <br />
+                  security.
+                </p>
+              </div>
 
-                    </SummaryCard>
-                    <SummaryCard>
-                        <hr />
-                        <h1>Global Accessibility</h1>
-                        <p>By integrating blockchain, FundBlock
-                            <br></br> creates a global stage for startups &
-                            <br></br>  investors to engage in crowdfunding </p>
-                    </SummaryCard>
-                    <SummaryCard >
-                        <hr/>
-                        <h1>Efficiency and Speed</h1>
-                        <p>Through integration with the Polygon
-                         <br></br>   blockchain, FUNDBLOCK enables rapid
-                          <br></br>  and streamlined transactions</p>
-                    </SummaryCard>
-                </SummaryContainer>
-                <Link to='/create-project' style={{ textDecoration: 'none', color: 'black' }}> <LButton>Launch Project</LButton></Link>
-            </WelcomeWrapper>
+              {/* second content */}
+              <div>
+                <div className=" w-80 h-px border border-white"></div>
+                <h3 className="text-white text-2xl font-bold leading-loose pt-[40px]">
+                Global Accessibility
+                </h3>
+                <p className="text-white text-xl font-normal leading-7">
+                By integrating blockchain, FundBlock<br />
+                creates a global stage for startups & <br />
+                investors to engage in crowdfunding
+                </p>
+              </div>
 
-
-
-        </WelcomeParent>
-
-
+              {/* third content */}
+              <div>
+                <div className=" w-80 h-px border border-white"></div>
+                <h3 className="text-white text-2xl font-bold leading-loose pt-[40px]">
+                Efficiency and Speed
+                </h3>
+                <p className="text-white text-xl font-normal leading-7">
+                Through integration with the Polygon <br />
+                blockchain, FUNDBLOCK enables rapid <br />
+                and streamlined transactions.
+                </p>
+              </div>
+            </div>
+            <div className="py-[40px]">
+              <Link to="/create-project">
+                <button className="bg-gradient-to-r from-[#69FEB0] to-[#5DE4F7] px-5 py-2.5  text-white rounded-sm text-center ">
+                  Launch Project
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
 
 
     )
-
-
-
-
-
 }
-
 
 export default Welcome;
