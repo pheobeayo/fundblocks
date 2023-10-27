@@ -4,7 +4,7 @@ import {devices} from "../../utils/device";
 
 export const WelcomeParent = styled.div`
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     background:#121113;
@@ -16,7 +16,7 @@ export const WelcomeParent = styled.div`
      `;
 export const WelcomeWrapper = styled.div`
      width: 100vw;
-     height: 100vh;
+     height: 60vh;
      display: flex;
      flex-direction: column;
      background:#121113;
@@ -50,30 +50,42 @@ ${
     `;
     
 export const Header = styled.div`
-    width: 70%;
-    height: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content:left;
-    align-content: left;
-    margin-top:10rem;
-    margin-left:3rem;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content:center;
+align-content: center;
+gap: 16px;
 
-    & h2 {
-        color: #fff;
-        font-size:2rem;
-        line-height:2.5rem;
-        font-weight:500;
-        
-     }
+& h2 {
+  color: #fff;
+  font-size:2.5rem;
+  line-height:normal;
+}
 
-     & h3 {
-        color: #fff;
-        font-size:2rem;
-        line-height:2.5rem;
-        font-weight:500;
-     }
+
+
+& h3 {
+  color: #fff;
+  margin-bottom: 2rem;
+  line-height:1rem;
+}
+
+
+ 
+@media ${devices.md} {
+& h2 {
+  font-size: 1.5rem;
+}
+& h3 {
+  font-size: 1rem;
+}
+}
+@media ${devices.tab} {
+& h3 {
+  font-size: 1.25rem;
+}
+}
 
     
      
@@ -88,6 +100,7 @@ export const SummaryCard = styled.div`
       flex-direction: column;
       padding: 1rem 1rem;
       background: #121113;
+      
       
       & p {
         font-weight: 400;
@@ -129,5 +142,7 @@ height: 2.5rem;
 align-items: center;
 justify-content: center;
 margin-left:3rem;
+
+
 
 `;

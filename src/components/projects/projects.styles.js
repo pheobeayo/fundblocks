@@ -134,9 +134,7 @@ export const SummaryWrapper2 = styled.div`
         line-height:1rem;
      }
        
-     & img{
-      margin-top:1rem;
-     }
+   
     
 
      @media ${devices.md} {

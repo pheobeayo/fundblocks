@@ -104,10 +104,6 @@ export const ProjectsWrapper = styled.div`
         line-height:1rem;
      }
 
-     & img {
-      margin-top:1rem;
-     }
-       
     @media ${devices.md} {
       & h2 {
         font-size: 1.5rem;
