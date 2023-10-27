@@ -39,7 +39,10 @@ export const SummaryWrapper = styled.div`
       @media ${devices.md} {
         flex-direction: row;
       }
-  
+
+      @media ${devices.tab} {
+        flex-basis: 56%;
+      }
      
        `;
      
@@ -102,21 +105,20 @@ export const SummaryWrapper2 = styled.div`
       flex-direction: row;
     }
 
+    @media ${devices.tab} {
+      flex-basis: 56%;
+    }
      
        `;
      
-    
-
     export const Header = styled.div`
-    width: 70%;
-    height: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
     align-content: center;
-    margin-left:13rem;
-    margin-top:3rem;
+    gap: 16px;
+
 
     & h2 {
         color: #fff;
@@ -147,7 +149,7 @@ export const SummaryWrapper2 = styled.div`
     }
     @media ${devices.tab} {
       & h3 {
-        font-size: 1.25rem;
+        font-size: 1rem;
       }
     } 
     `;
