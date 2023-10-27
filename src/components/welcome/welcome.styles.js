@@ -74,6 +74,8 @@ export const Header = styled.div`
         line-height:2.5rem;
         font-weight:500;
      }
+
+    
      
     `;
 
