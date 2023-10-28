@@ -34,7 +34,7 @@ export const SummaryContainer1 = styled.section`
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-left:15rem;
+    margin-left:14rem;
   
     @media ${devices.tab} {
       flex-direction: row;

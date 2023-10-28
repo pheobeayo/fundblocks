@@ -4,7 +4,7 @@ import {devices} from "../../utils/device";
 
 export const ProjectsParent = styled.div`
     width: 100vw;
-    height: 120vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     background:#121113;
