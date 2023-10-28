@@ -31,7 +31,7 @@ export const ProjectsWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-left:15rem;
+    margin-left:14rem;
   
     @media ${devices.md} {
       flex-direction: row;
@@ -59,7 +59,7 @@ export const ProjectsWrapper = styled.div`
     flex-direction: column;
     gap: 40px;
     margin-top: 1rem;
-    margin-left:15rem;
+    margin-left:14rem;
   
     @media ${devices.md} {
       flex-direction: row;

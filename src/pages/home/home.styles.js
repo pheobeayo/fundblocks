@@ -3,8 +3,6 @@ import { devices } from "../../utils/device";
 
 
 export const HomeParent = styled.div`
-    
-    
     background:#121113;
 `;
 
