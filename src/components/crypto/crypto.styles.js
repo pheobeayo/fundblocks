@@ -28,7 +28,7 @@ export const ProjectsWrapper = styled.div`
 
      & p{
         font-size: 1.5rem;
-        margin-left: 32rem;
+        margin-left: 28rem;
      }
 
      @media ${devices.tab} {
@@ -51,6 +51,7 @@ export const Header = styled.div`
     justify-content:center;
     align-content: center;
     gap: 16px;
+    margin-right:5rem;
 
     & h2 {
         color: #fff;
@@ -64,7 +65,10 @@ export const Header = styled.div`
         color: #fff;
         margin-bottom: 1.8rem;
         line-height:1rem;
+        
      }
+
+     
 
     
      

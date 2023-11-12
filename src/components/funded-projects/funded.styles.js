@@ -31,7 +31,8 @@ export const ProjectsWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-left:14rem;
+    margin-left:5rem;
+   
   
     @media ${devices.md} {
       flex-direction: row;
@@ -59,7 +60,8 @@ export const ProjectsWrapper = styled.div`
     flex-direction: column;
     gap: 40px;
     margin-top: 1rem;
-    margin-left:14rem;
+    margin-left:5rem;
+   
     
   
     @media ${devices.md} {
@@ -89,6 +91,7 @@ export const ProjectsWrapper = styled.div`
     justify-content:center;
     align-content: center;
     gap: 16px;
+    margin-right:5rem;
 
     & h2 {
         color: #fff;
@@ -119,5 +122,43 @@ export const ProjectsWrapper = styled.div`
     }
        
     `;
+export const SummaryCard = styled.div`
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    background: #181B19;
+    border-radius:10px;
+    border: 1px solid white;
+  
+    & h3{
+      color: #fff;
+      font-size: 1rem;
+      font-weight:500;
+      margin-left:1rem;
+    }
 
+    & h4{
+      color: #fff;
+      font-size: 1rem;
+      font-weight:500;
+      margin-left:1rem;
+    }
+  
+    & p{
+      font-size:0.8rem;
+      color: #fff;
+      margin-left:1rem;
+    }
+  
+    & img{
+      border-radius:10px;
+      
+    }
+
+    hr{
+      width:90%;
+      margin-left: 1rem;
+    }
+  `;
+    
     
