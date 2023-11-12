@@ -8,6 +8,8 @@ module.exports = {
     extend: {},
   },
   screens: {
+    'xs': '320px',
+    'sm': '640px',
     'md': '768px',
     tablet: '960px',
     'xl': '1280px',

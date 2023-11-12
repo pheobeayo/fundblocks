@@ -8,6 +8,7 @@ export const ProjectsParent = styled.div`
     display: flex;
     flex-direction: column;
     background:#121113;
+    padding: 40px 32px 56px 32px;
 
     
     @media ${devices.md} {
@@ -19,11 +20,9 @@ export const ProjectsParent = styled.div`
      `;
 
 export const ProjectsWrapper = styled.div`
-     width: 100vw;
-     height: 60vh;
-     display: flex;
-     flex-direction: column;
-     background:#121113;
+display: flex;
+flex-direction: column;
+background:#121113;
  
     
       `;
@@ -31,33 +30,32 @@ export const ProjectsWrapper = styled.div`
       
 
 export const SummaryContainer1 = styled.section`
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-left: 7rem;
-    
-   
+display: flex;
+flex-direction: column;
+gap: 40px;
+margin-left:5rem;
+
+@media ${devices.md} {
+  flex-direction: row;
   
-    @media ${devices.tab} {
-      flex-direction: row;
-    }
-    @media ${devices.md} {
-      flex-direction: row;
-      
-    }
-    ${
-      '' /* width: 90%;
-    height: 45%
-    display: flex;
-    gap: 0.5rem;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 7rem;
-    margin-left: 5rem; */
-    };
+}
+
+@media ${devices.tab} {
+  flex-direction: row;
+
+}
+${
+  '' /* width: 90%;
+height: 45%;
+display: flex;
+gap: 0.5rem;
+justify-content: space-around;
+align-items: center;
+margin-top: 7rem;
+margin-left: 5rem; */
+};
     `;
 
-    
     
 export const Header = styled.div`
     display: flex;

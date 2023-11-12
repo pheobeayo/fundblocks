@@ -7,7 +7,7 @@ export const SignupParent = styled.div`
     display: flex;
     flex-direction: column;
     background:#121113;
-
+    padding: 40px 32px 56px 32px;
   
 
      `;
@@ -74,7 +74,7 @@ export const Wrapper = styled.div`
 
 export const SecondWrapper = styled.div`
     width: 75vw;
-    height: 180vh;
+    height: 174vh;
     background:linear-gradient(150deg, #fff 30%, #69FEB0 60%, #5DE4F7 );
     display: flex;
     flex-direction: column;

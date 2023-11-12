@@ -7,6 +7,7 @@ export const ProjectsParent = styled.div`
     display: flex;
     flex-direction: column;
     background:#121113;
+    padding: 40px 32px 56px 32px;
 
     @media ${devices.md} {
       padding: 40px 40px 96px 40px;
@@ -16,18 +17,17 @@ export const ProjectsParent = styled.div`
      `;
 
 export const ProjectsWrapper = styled.div`
-     width: 100vw;
-     height: 100vh;
-     display: flex;
-     flex-direction: column;
-     background:#121113;
+display: flex;
+flex-direction: column;
+background:#121113;
+    
  
     
       `;
 
       
 
-    export const SummaryContainer1 = styled.section`
+export const SummaryContainer1 = styled.section`
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -54,8 +54,7 @@ export const ProjectsWrapper = styled.div`
     margin-left: 5rem; */
     };
     `;
-
-    export const SummaryContainer2 = styled.section`
+export const SummaryContainer2 = styled.section`
     display: flex;
     flex-direction: column;
     gap: 40px;
