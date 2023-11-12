@@ -33,8 +33,10 @@ export const ProjectsWrapper = styled.div`
 export const SummaryContainer1 = styled.section`
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin-left:14rem;
+    gap: 20px;
+    margin-left: 7rem;
+    
+   
   
     @media ${devices.tab} {
       flex-direction: row;
@@ -45,7 +47,7 @@ export const SummaryContainer1 = styled.section`
     }
     ${
       '' /* width: 90%;
-    height: 45%;
+    height: 45%
     display: flex;
     gap: 0.5rem;
     justify-content: space-around;
@@ -64,6 +66,7 @@ export const Header = styled.div`
     justify-content:center;
     align-content: center;
     gap: 16px;
+    margin-right:5rem;
 
     & h2 {
         color: #fff;
@@ -98,4 +101,62 @@ export const Header = styled.div`
    
     `;
 
-    
+export const SummaryCard = styled.div`
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    background: #181B19;
+    border-radius:12px;
+    border: 1px solid white;
+  
+    & h3{
+      color: #fff;
+      font-size: 1rem;
+      font-weight:500;
+      margin-left:1rem;
+      margin-top: 1rem;
+      
+    }
+
+    & h4{
+      color: #fff;
+      font-size: 1rem;
+      font-weight:500;
+      margin-left:1rem;
+    }
+  
+    & p{
+      font-size:0.8rem;
+      color: #fff;
+      margin-left:1rem;
+    }
+  
+    & img{
+      border-radius:10px;
+      width:2rem;
+    }
+  `;
+  
+export const ImageContainer = styled.div`
+ 
+  display: flex;
+  
+  background: #181B19;
+  
+
+  & h3{
+    color: #fff;
+    font-size: 1rem;
+    font-weight:500;
+    margin-left:1rem;
+  }
+
+  
+
+  & img{
+    border-radius:10px;
+    width:2rem;
+    margin-left: 1rem;
+  }
+`;
+  
