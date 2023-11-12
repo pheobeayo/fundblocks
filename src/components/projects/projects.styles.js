@@ -8,6 +8,7 @@ export const ProjectsParent = styled.div`
     display: flex;
     flex-direction: column;
     background:#121113;
+    padding: 40px 32px 56px 32px;
 
     @media ${devices.md} {
       padding: 40px 40px 96px 40px;

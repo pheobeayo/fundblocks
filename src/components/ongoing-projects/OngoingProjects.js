@@ -40,9 +40,9 @@ const OngoingProjects = () => {
                             <p>AI-driven virus detection and prevention
                                 <br></br>software for public health.</p>
                             <hr />
-                            <p sty>Total raised <span class='mx-16'>$12,491,432</span>
-                                <br></br>Fundraising goal<span class='mx-10'>$78,204,512</span>
-                                <br></br>Starting date<span class='mx-16'>October 28</span>
+                            <p >Total raised <span class='mx-16 text-white'>$12,491,432</span>
+                                <br></br>Fundraising goal<span class='mx-10 text-white'>$78,204,512</span>
+                                <br></br>Starting date<span class='mx-16 text-white'>October 28</span>
                             </p>
                         </SummaryCard>
                         <SummaryCard>
@@ -51,9 +51,9 @@ const OngoingProjects = () => {
                             <p>Autonomous vehicle technology enhancing
                                 <br></br>transportation safety and efficiency..</p>
                             <hr />
-                            <p>Total raised <span class='mx-16'>$150,491,562</span>
-                                <br></br>Fundraising goal<span class='mx-10'>$190,204,512</span>
-                                <br></br>Starting date<span class='mx-16'>October 30</span>
+                            <p>Total raised <span class='mx-16 text-white'>$150,491,562</span>
+                                <br></br>Fundraising goal<span class='mx-10 text-white'>$190,204,512</span>
+                                <br></br>Starting date<span class='mx-16 text-white'>October 30</span>
                             </p>
                         </SummaryCard>
                         <SummaryCard>
@@ -62,9 +62,9 @@ const OngoingProjects = () => {
                             <p>Developing nanotechnology for innovative
                                 <br></br>medical diagnostics and treatments.</p>
                             <hr />
-                            <p>Total raised <span class='mx-16'>$70,555,198</span>
-                                <br></br>Fundraising goal<span class='mx-10'>$105,154,781</span>
-                                <br></br>Starting date<span class='mx-16'>December 29</span>
+                            <p>Total raised <span class='mx-16 text-white'>$70,555,198</span>
+                                <br></br>Fundraising goal<span class='mx-10 text-white'>$105,154,781</span>
+                                <br></br>Starting date<span class='mx-16 text-white'>December 29</span>
                             </p>
                         </SummaryCard>
                     </SummaryContainer1>
@@ -75,9 +75,9 @@ const OngoingProjects = () => {
                             <p>A start-up that develops natural language
                                 <br></br>processing and speech recognition technology</p>
                             <hr />
-                            <p>Total raised <span class='mx-16'>$40,255,133</span>
-                                <br></br>Fundraising goal<span class='mx-10'>$210,451,098</span>
-                                <br></br>Starting date<span class='mx-16'>December 29</span>
+                            <p>Total raised <span class='mx-16 text-white'>$40,255,133</span>
+                                <br></br>Fundraising goal<span class='mx-10 text-white'>$210,451,098</span>
+                                <br></br>Starting date<span class='mx-16 text-white'>December 29</span>
                             </p>
                         </SummaryCard>
                         <SummaryCard>
@@ -86,9 +86,9 @@ const OngoingProjects = () => {
                             <p>A tech startup ensuring remote workers'
                                 <br></br>cybersecurity,  and safeguarding sensitive data</p>
                             <hr />
-                            <p>Total raised <span class='mx-16'>$40,255,133</span>
-                                <br></br>Fundraising goal<span class='mx-10'>$210,451,098</span>
-                                <br></br>Starting date<span class='mx-16'>December 21</span>
+                            <p>Total raised <span class='mx-16 text-white'>$40,255,133</span>
+                                <br></br>Fundraising goal<span class='mx-10 text-white'>$210,451,098</span>
+                                <br></br>Starting date<span class='mx-16 text-white'>December 21</span>
                             </p>
                         </SummaryCard>
                         <SummaryCard>
@@ -97,9 +97,9 @@ const OngoingProjects = () => {
                             <p>A start-up that develops cybersecurity
                                 <br></br>solutions for individuals and small businesses.</p>
                             <hr />
-                            <p>Total raised <span class='mx-16'>$120,491,432</span>
-                                <br></br>Fundraising goal<span class='mx-10'>$180,204,512</span>
-                                <br></br>Starting date<span class='mx-16'>August 29</span>
+                            <p>Total raised <span class='mx-16 text-white'>$120,491,432</span>
+                                <br></br>Fundraising goal<span class='mx-10 text-white'>$180,204,512</span>
+                                <br></br>Starting date<span class='mx-16 text-white'>August 29</span>
                             </p>
                         </SummaryCard>
                     </SummaryContainer2>

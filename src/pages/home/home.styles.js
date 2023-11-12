@@ -72,10 +72,28 @@ h1 {
     line-height:1.5rem;
  }
 
- @media ${devices.tab} {
+@media ${devices.tab} {
   flex-basis: 56%;
 }
 
+@media ${devices.md} {
+  & h1 {
+    font-size: 4rem;
+  }
+  & h2 {
+    font-size: 1rem;
+  }
+  & h3 {
+    font-size: 1rem;
+  }
+
+}
+
+@media ${devices.xl} {
+  & h1 {
+    font-size: 5.5rem;
+  }
+}
 
  
 `;
