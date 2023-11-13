@@ -21,6 +21,10 @@ export const ProjectsWrapper = styled.div`
   flex-direction: column;
   background:#121113;
 
+  @media ${devices.tab} {
+  flex-basis: 56%;
+}
+
   & hr {
     color:#FFDAB9;
     width: 30%;

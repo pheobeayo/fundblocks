@@ -7,6 +7,11 @@ export const SigninParent = styled.div`
     display: flex;
     flex-direction: column;
     background:#121113;
+    padding: 40px 32px 56px 32px;
+ 
+    @media ${devices.md} {
+      padding: 40px 40px 40px 40px;
+    }
 
    
 
@@ -73,12 +78,12 @@ export const Wrapper = styled.div`
 
 export const SecondWrapper = styled.div`
     width: 75vw;
-    height: 150vh;
+    height: 142.8vh;
     background:linear-gradient(150deg, #fff 30%, #69FEB0 60%, #5DE4F7 );
     display: flex;
     flex-direction: column;
     padding-left: 3rem;
-    padding-top:3rem;
+    
 
   & h1{
         color:#1B2924;
