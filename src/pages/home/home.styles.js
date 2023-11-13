@@ -44,9 +44,7 @@ gap: 28px;
  
    
       `;
-
-
-
+      
 export const TextContainer = styled.div`
 margin-top:2rem;
 h1 {
@@ -76,7 +74,7 @@ h1 {
   flex-basis: 56%;
 }
 
-@media ${devices.md} {
+@media ${devices.sm} {
   & h1 {
     font-size: 4rem;
   }
@@ -95,7 +93,6 @@ h1 {
   }
 }
 
- 
 `;
 
 export const ButtonContainer = styled.div`

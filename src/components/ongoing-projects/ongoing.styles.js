@@ -22,6 +22,10 @@ export const ProjectsWrapper = styled.div`
 display: flex;
 flex-direction: column;
 background:#121113;
+
+@media ${devices.tab} {
+  flex-basis: 56%;
+}
   `;
 
       
@@ -80,14 +84,14 @@ export const SummaryContainer2 = styled.section`
     `;
     
 
-    export const Header = styled.div`
+export const Header = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
     align-content: center;
     gap: 16px;
-   margin-right:5rem;
+    margin-right:5rem;
 
     & h2 {
         color: #fff;
@@ -116,8 +120,10 @@ export const SummaryContainer2 = styled.section`
         font-size: 1.25rem;
       }
     }
+
+    
        
-    `;
+`;
 export const SummaryCard = styled.div`
     width:25%;
     display: flex;
@@ -155,6 +161,8 @@ export const SummaryCard = styled.div`
       width:90%;
       margin-left:1rem;
     }
+
+    
   `;
     
     

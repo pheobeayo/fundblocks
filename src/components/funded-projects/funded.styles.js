@@ -20,6 +20,10 @@ export const ProjectsWrapper = styled.div`
 display: flex;
 flex-direction: column;
 background:#121113;
+
+@media ${devices.tab} {
+  flex-basis: 56%;
+}
     
  
     
