@@ -48,7 +48,7 @@ gap: 28px;
 export const TextContainer = styled.div`
 margin-top:2rem;
 h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: #fff;
     font-weight: 500;
     line-height: normal;
