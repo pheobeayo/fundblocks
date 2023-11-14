@@ -6,9 +6,9 @@ import {
 import Navbar from "../../components/navbar/index";
 import landingimage from "../../assets/landingimage.png";
 import Welcome from "../../components/welcome/Welcome";
-import OngoingProjects from "../../components/ongoing-projects/OngoingProjects";
-import FundedProjects from "../../components/funded-projects/FundedProjects";
-import Testimonials from "../../components/testimonials/Testimonials";
+import OngoingProjects from "../../components/ongoing-projects/index";
+import FundedProjects from "../../components/funded-projects/index";
+import Testimonials from "../../components/testimonials/index";
 import Projects from "../../components/projects/Projects";
 import Crypto from "../../components/crypto/Crypto";
 import Subfooter from "../../components/sub-footer/Subfooter";
