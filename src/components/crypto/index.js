@@ -8,7 +8,7 @@ const Crypto = () => {
         <div className="bg-[#121113]">
             <div
                 className="container mx-auto px-8 sm:px-[80px] pb-[100px]">
-                <div class='mx-80 px-10 text-white mb-3 sm:mx-0'>
+                <div class='mx-80 px-10 text-white mb-3 '>
                     <h2 className="text-white text-3xl font-bold leading-10 mx-4">
                         Cryptocurrency Token
                     </h2>
@@ -17,13 +17,13 @@ const Crypto = () => {
                 </div>
                 <div className="grid-cols-4 gap-4 md:flex md:flex-row">
 
-            <p className=" text-white text-base font-normal leading-relaxed mx-80sm:mx-0">
+            <p className=" text-white text-base font-normal leading-relaxed mx-80">
                         Matic, Ethereum, and other Polygon-compatible tokens
                     </p>
 
 
                 </div>
-                <div class='mx-80 px-10 text-white mb-3 sm:mx-0'>
+                <div class='mx-80 px-10 text-white mb-3 '>
                     <h2 className="text-white text-3xl font-bold leading-10 mx-12">
                         Our Partners
                     </h2>

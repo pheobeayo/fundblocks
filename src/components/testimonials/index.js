@@ -12,7 +12,7 @@ const Testimonies = () => {
     return (
         <div className="bg-[#121113]">
             <div className="container mx-auto px-8 sm:px-[80px] pb-[100px]">
-                <div class='mx-96 px-6 text-white mb-3 sm:mx-0'>
+                <div class='mx-96 px-6 text-white mb-3 '>
                     <h2 className="text-white text-3xl font-bold leading-10 mx-6">
                         Testimonials
                     </h2>
