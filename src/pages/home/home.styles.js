@@ -54,14 +54,7 @@ h1 {
     line-height: normal;
  }
 
- & h2 {
-    font-size: 1rem;
-    color: #fff;
-    font-weight: 500;
-    line-height:2rem;
-    margin-top: 1rem;
-   
- }
+ 
 
  & h3{
     font-size:1.3rem;
@@ -76,11 +69,9 @@ h1 {
 
 @media ${devices.sm} {
   & h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
-  & h2 {
-    font-size: 1rem;
-  }
+  
   & h3 {
     font-size: 1rem;
   }
@@ -89,7 +80,7 @@ h1 {
 
 @media ${devices.xl} {
   & h1 {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
 }
 
