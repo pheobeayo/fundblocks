@@ -48,7 +48,7 @@ gap: 28px;
 export const TextContainer = styled.div`
 margin-top:2rem;
 h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
     color: #fff;
     font-weight: 500;
     line-height: normal;
@@ -76,7 +76,7 @@ h1 {
 
 @media ${devices.sm} {
   & h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   & h2 {
     font-size: 1rem;
