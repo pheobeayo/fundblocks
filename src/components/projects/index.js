@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="bg-[#121113]">
       <div className="container mx-auto px-8 sm:px-[80px] pb-[100px]">
-        <div class='mx-72 px-6 text-white mb-3'>
+        <div class='mx-72 px-6 text-white mb-3 sm:mx-0'>
           <h2 className="text-white text-3xl font-bold leading-10">
             Projects, Restrictions and Caveat
           </h2>
