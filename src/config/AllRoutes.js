@@ -4,9 +4,10 @@ import Signup from "../pages/sign-up/Signup";
 import Signin from "../pages/sign-in/Signin";
 import Home from "../pages/home/Home";
 import SignupSubmit from "../pages/sign-up/SignupSubmit";
-import ProjectCreation from "../pages/project-creation/CreateProject";
+import CreateProject from "../pages/project-creation/CreateProject";
 import ProjectDetails from "../pages/project-details/ProjectDetails";
 import Layout from "../layout/Layout";
+
 
 
 
@@ -23,7 +24,7 @@ const AllRoutes = () => {
                         <Route path="/sign-up" element={<Signup />} />
                         <Route path="/sign-in" element={<Signin />} />
                         <Route path="/signup-submit" element={<SignupSubmit />} />
-                        <Route path='/create-project' element={<ProjectCreation />} />
+                        <Route path="/create-project" element={<CreateProject/>} />
                         <Route path='/project-details' element={<ProjectDetails />} />
                     </Routes>
                 </Layout>

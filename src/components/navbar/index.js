@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import searchicon from "../../assets/searchicon.png";
 import { AiOutlineClose } from 'react-icons/ai';
 import menu from "../../assets/menu.svg";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 
 
@@ -29,8 +30,9 @@ const Navbar = () => {
           <li className='hidden md:inline-block  text-white'><Link to='/sign-up'>Sign up</Link></li>
         </ul>
         <img src={searchicon} alt='searchicon' width='13px' height='13px' />
-        <button class="bg-gradient-to-r from-[#69FEB0] to-[#5DE4F7] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          Connect Wallet    </button>
+        {/* <button class="bg-gradient-to-r from-[#69FEB0] to-[#5DE4F7] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"> */}
+          {/* Connect Wallet    </button> */}
+          <ConnectButton/>
           {/* Mobile Hamburger Menu */}
           <div className='tab:hidden'>
                     <button onClick={handleMobileMenu}>

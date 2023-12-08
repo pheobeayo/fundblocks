@@ -39,11 +39,11 @@ const Home = () => {
                 <CentreWrapper>
                     <TextContainer>
                         <h1>Revolutionizing Tech
-                        <br></br>Startup Financing </h1>
+                            <br></br>Startup Financing </h1>
                         <h3>Unleash the Potential of Your Startup with Decentralized
                             <br></br>Funding and Support</h3>
                         <ButtonContainer>
-                            <Link to='/create-project' style={{ textDecoration: 'none', color: 'black' }}>  <LButton>
+                        <Link to='/create-project' style={{ textDecoration: 'none', color: 'black' }}>  <LButton>
                                 Launch Project    </LButton></Link>
                             <Link to='/project-details' style={{ textDecoration: 'none', color: 'white' }}>  <EButton>
                                 Explore more    </EButton></Link>

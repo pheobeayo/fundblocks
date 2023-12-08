@@ -5,7 +5,7 @@ import jonathan from '../../assets/jonathan.svg';
 import mark from '../../assets/mark.svg';
 import michelle from '../../assets/michelle.svg';
 import samuel from '../../assets/samuel.svg';
-import Navbar from '../../components/navbar/Navbar';
+import Navbar from '../../components/navbar/index';
 import Footer from '../../components/footer/Footer';
 import ProjectCard from '../../components/project-card';
 

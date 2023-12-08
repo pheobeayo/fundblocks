@@ -1,114 +1,79 @@
 import React from "react";
-import {
-    CreationParent,
-    CreationWrapper,
-    FooterWrapper,
-    Wrapper,
-    FormHeader,
-    BarWrapper,
-    Button
-} from "./createproject.styles";
-import Footer from "../../components/footer/Footer";
-import Navbar from "../../components/navbar/Navbar";
 import arrow from "../../assets/arrow.png";
-import FormTextInput from "../../components/custom-input/FormTextInput";
 
 
 
 
 
 
-const ProjectCreation = () => {
-    
-    
-
+const CreateProject = () => {
 
     return (
-        <CreationParent>
-            <CreationWrapper>
-                <BarWrapper>
-                    <Navbar />
-                </BarWrapper>
-                <Wrapper>
-
-                <FormHeader>
-                            <h3>PROJECT CREATION</h3>
-
-                            <img src={arrow} alt="arrow" />
-                            <p>Create a new project by filling out the form below</p>
-                        </FormHeader>
-                    <form>
-                        
-
-                        <FormTextInput
-                            labelName="Project title"
-                            placeholder="A catchy and descriptive name for your project"
-                            name="projectTitle"
-
-                        />
-                         <FormTextInput
-                            labelName="Project category"
-                            placeholder="The category of your project. E.g Blockchain, AI, Robotic, etc"
-                            name="projectCategory"
-
-                        />
-                        <FormTextInput
-                            labelName="Funding goals"
-                            placeholder="Specify the amount of funded needed to complete the project"
-                            name="fundingGoals"
-
-                        />
-                        
-                        <FormTextInput
-                            labelName="Cryptocurrency of choice"
-                            placeholder="This platform accepts Matic, Ethereum, & other Polygon-compatible tokens "
-                            name="cryptocurrencyChoice"
-
-                        />
-                        <FormTextInput
-                            labelName="Project timeline"
-                            placeholder="Duration needed to complete the project with deadlines and milestones"
-                            name="projectTimeline"
-
-                        />
-                        <FormTextInput
-                            labelName="Team background"
-                            placeholder="Brief background of team members; their qualifications & experience"
-                            name="teamBackground"
-                            height="5rem"
-
-                        />
-                        <FormTextInput
-                            labelName="Roadmap"
-                            placeholder="A plan of action highlighting the key stages of the project"
-                            name="projectImpact"
-                            height="5rem"
-
-                        />
-                        <FormTextInput
-                            labelName="Reward for the Investors"
-                            placeholder="What do investors stand to gain"
-                            name="rewards"
-                           
-
-                        />
-                       
-                       
-<Button>Create Project</Button>
+        <section class='bg-[#121113]'>
 
 
+            <h1 className="text-[30px] md:text-[34px] font-bold text-white mx-10">
+                Create a Project{" "}
+            </h1>
+            <img src={arrow} alt="arrow" class='mx-32' />
+            <p class='text-white'>Create a new project by filling out the form below</p>
 
-                    </form>
+            <form class='mt-64 w-1/2'>
+                <div class="mb-1">
+                    <label class="block text-white text-sm font-bold mb-2" for="projectTitle">
+                        Project title
+                    </label>
+                    <input class="bg-[#E6DDF8] border-[#E6DDF8] border-2 rounded w-full py-2 px-3 text-[#020C17] leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="A catchy and descriptive name for your project" required></input>
+                </div>
+                <div class="mb-1">
+                    <label class="block text-white text-sm font-bold mb-2" for="projectCategory">
+                        Project category
+                    </label>
+                    <input class="bg-[#E6DDF8] border-[#E6DDF8] border-2 rounded w-full py-2 px-3 text-[#020C17] leading-tight focus:outline-none focus:shadow-outline" id="projectCategory" type="text" placeholder="The category of your project. E.g Blockchain, AI, Robotic, etc" required> </input>
+                </div>
+                <div class="mb-1">
+                    <label class="block text-white text-sm font-bold mb-2" for="fundingGoals">
+                        Funding goals
+                    </label>
+                    <input class="bg-[#E6DDF8] border-[#E6DDF8] border-2 rounded w-full py-2 px-3 text-[#020C17] leading-tight focus:outline-none focus:shadow-outline" id="fundingGoals" type="text" placeholder="Specify the amount of funded needed to complete the project" required> </input>
+                </div>
+                <div class="mb-1">
+                    <label class="block text-white text-sm font-bold mb-2" for="cryptocurrencyChoice">
+                        Cryptocurrency of choice
+                    </label>
+                    <input class="bg-[#E6DDF8] border-[#E6DDF8] border-2 rounded w-full py-2 px-3 text-[#020C17] leading-tight focus:outline-none focus:shadow-outline" id="cryptocurrencyChoice" type="amount" placeholder="This platform accepts Matic, Ethereum, & other Polygon-compatible tokens" required> </input>
+                </div>
+                <div class="mb-1">
+                    <label class="block text-white text-sm font-bold mb-2" for="projectTimeline">
+                        Project timeline
+                    </label>
+                    <input class="bg-[#E6DDF8] border-[#E6DDF8] border-2 rounded w-full py-2 px-3 text-[#020C17] leading-tight focus:outline-none focus:shadow-outline" id="projectTimeline" type="duration" placeholder="Duration needed to complete the project with deadlines and milestones" required></input>
+                </div>
+                <div class="mb-1">
+                    <label class="block text-white text-sm font-bold mb-2" for="teamBackground">
+                        Team background
+                    </label>
+                    <input class="bg-[#E6DDF8] border-[#E6DDF8] border-2 rounded w-full py-2 px-3 text-[#020C17] leading-tight focus:outline-none focus:shadow-outline" id="teamBackground" type="text" placeholder="Brief background of team members; their qualifications & experience" required></input>
+                </div>
+                <div class="mb-1">
+                    <label class="block text-white text-sm font-bold mb-2" for="projectImpact">
+                        Roadmap
+                    </label>
+                    <input class="bg-[#E6DDF8] border-[#E6DDF8] border-2 rounded w-full py-2 px-3 text-[#020C17] leading-tight focus:outline-none focus:shadow-outline" id="projectImpact" type="text" placeholder="A plan of action highlighting the key stages of the project" required></input>
+                </div>
+                <div class="mb-1">
+                    <label class="block text-white text-sm font-bold mb-2" for="rewards">
+                        Reward for the Investors
+                    </label>
+                    <input class="bg-[#E6DDF8] border-[#E6DDF8] border-2 rounded w-full py-2 px-3 text-[#020C17] leading-tight focus:outline-none focus:shadow-outline" id="rewards" type="text" placeholder="What do investors stand to gain" required></input>
+                </div>
 
-                    
-                    <FooterWrapper>
-                        <Footer />
-                    </FooterWrapper>
-                </Wrapper>
-            </CreationWrapper>
-        </CreationParent>
+                <button type='submit' className='w-full px-8 py-2 mb-2 font-semibold rounded-lg text-white bg-gradient-to-r from-[#69FEB0] to-[#5DE4F7] hover:bg-blue-700'>Create Project</button>
+            </form>
+
+        </section>
 
     );
 };
 
-export default ProjectCreation;
+export default CreateProject;
