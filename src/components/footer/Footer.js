@@ -48,6 +48,7 @@ function Footer() {
             <FaTwitter />
             <SiDiscord />
             <HiOutlineMail />
+            
           </div>
         </div>
         </div>

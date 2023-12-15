@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
     <div className='relative'>
       
       <div>
-        <main className=''>{children}</main>
+        <main className="">{children}</main>
       </div>
       
     </div>

@@ -5,7 +5,7 @@ import jonathan from '../../assets/jonathan.svg';
 import mark from '../../assets/mark.svg';
 import michelle from '../../assets/michelle.svg';
 import samuel from '../../assets/samuel.svg';
-import Navbar from '../../components/navbar/Navbar';
+import Navbar from '../../components/navbar/index';
 import Footer from '../../components/footer/Footer';
 import ProjectCard from '../../components/project-card';
 
@@ -54,7 +54,7 @@ const ProjectDetails = () => {
                     <div className='flex flex-col md:flex-col justify-center mr-16'>
                         <Navbar />
                     </div>
-                    <div class="flex flex-col md:flex-col justify-center">
+                    <div class="flex flex-col md:flex-col justify-center px-10 pt-8 pr-10">
                         <h1 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-white">
                             ViraSafe
                         </h1>
