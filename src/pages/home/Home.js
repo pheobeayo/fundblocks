@@ -30,7 +30,7 @@ const Home = () => {
                         <br></br>Funding and Support</h3>
                     <div className="flex item-centre gap-8  mx-8 mt-4">
 
-                    <Link to='/create-project'><button class="text-black bg-gradient-to-r from-[#69FEB0] to-[#5DE4F7] hover:bg-[#5DE4F7] border-[#5DE4F7] border-2 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm px-5 py-2.5 dark:bg-[#69FEB0] dark:hover:bg-[#69FEB0] focus:outline-none dark:focus:ring-[#69FEB0]">
+                    <Link to='/launch-project'><button class="text-black bg-gradient-to-r from-[#69FEB0] to-[#5DE4F7] hover:bg-[#5DE4F7] border-[#5DE4F7] border-2 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm px-5 py-2.5 dark:bg-[#69FEB0] dark:hover:bg-[#69FEB0] focus:outline-none dark:focus:ring-[#69FEB0]">
                             Launch Project</button></Link>
 
                         <Link to='/project-details'><button class="text-white bg-[#121113] hover:bg-[#5DE4F7] border-[#5DE4F7] border-2 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-sm px-5 py-2.5 dark:bg-[#69FEB0] dark:hover:bg-[#69FEB0] focus:outline-none dark:focus:ring-[#69FEB0]">

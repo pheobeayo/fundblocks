@@ -20,7 +20,7 @@ const AllRoutes = () => {
                     <Routes>
                         <Route path='/' element={<Home />} />
                         <Route path='/project-details' element={<ProjectDetails />} />
-                        <Route path='/create-project' element={<CreateProject />} />
+                        <Route path='/launch-project' element={<CreateProject/>} />
                     </Routes>
                 </Layout>
             </BrowserRouter>
