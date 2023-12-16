@@ -5,8 +5,6 @@ import jonathan from '../../assets/jonathan.svg';
 import mark from '../../assets/mark.svg';
 import michelle from '../../assets/michelle.svg';
 import samuel from '../../assets/samuel.svg';
-import Navbar from '../../components/navbar/index';
-import Footer from '../../components/footer/Footer';
 import ProjectCard from '../../components/project-card';
 
 
@@ -51,9 +49,7 @@ const ProjectDetails = () => {
         <>
             <main className='bg-[#121113]'>
                 <section className='w-[90%] md:w-[80%] mx-auto py-10'>
-                    <div className='flex flex-col md:flex-col justify-center mr-16'>
-                        <Navbar />
-                    </div>
+                    
                     <div class="flex flex-col md:flex-col justify-center px-10 pt-8 pr-10">
                         <h1 className="title-font sm:text-2xl text-3xl mb-4 font-medium text-white">
                             ViraSafe
@@ -145,9 +141,7 @@ const ProjectDetails = () => {
                             {project}
                         </div>
                     ))}
-                    <div class="flex flex-col md:flex-row justify-center mt-60 ">
-                        <Footer />
-                    </div>
+                   
                 </section>
 
             </main>

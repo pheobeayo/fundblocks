@@ -16,13 +16,14 @@ const getContract = async () => {
   }
 };
 
-export async function addProfile(name, location, mail) {
+export async function addCampaign(title, description, target, deadline) {
     const fundContract = await getContract();
     try {
-        var tx = await fundContract.createProfile(
-            name,
-            location,
-            mail
+        var tx = await fundContract.createCampaign(
+            title,
+            description,
+            target,
+            deadline
           );
           await tx.wait();
           console.log(tx.hash)
@@ -31,66 +32,44 @@ export async function addProfile(name, location, mail) {
     }
   }
 
-export async function getSeller(owner) {
-    const greenContract = await getContract();
+export async function getAllCampaigns(owner) {
+    const fundContract = await getContract();
     try {
-        var seller = await greenContract.getSeller(owner);
-        return seller;
+        var project = await fundContract.getAllCampaigns(owner);
+        return project;
       } catch (error) {
         console.log(error);
       }
 }
 
-export async function sellProduct(name, image, description, price, weight) {
-    const greenContract = await getContract();
+export async function donateToCampaign(owner) {
+    const fundContract = await getContract();
     try {
-        var tx = await greenContract.listProduct(name, image, description, price, weight);
+        var tx = await fundContract.donateToCampaign(owner);
         await tx.wait();
       } catch (error) {
         console.log(error);
       }
 }
 
-export async function getProducts() {
-    const greenContract = await getContract();
+export async function getAParticularCampaign() {
+    const fundContract = await getContract();
     try {
-        var products = await greenContract.getAllproduct();
-        const structuredProducts = products.map((product) => ({
-            owner: product.owner,
-            name: product.name,
-            description: product.description,
-            image: product.image,
-            price: product.price,
-            location: product.location,
-            totalWeight: product.totalWeight,
-            sold: product.sold,
-            progress: product.inProgress
+        var campaigns = await fundContract.getAParticularCampaign();
+        const structuredFundBlockCampaign = campaigns.map((campaign) => ({
+            owner: campaign.owner,
+            title: campaign.title,
+            description: campaign.description,
+            amount: campaign.targetAmount,
+            deadline: campaign.deadline,
+            amountRealised: campaign.amountRealised,
+            status: campaign.inProgress
         }));
 
-        return structuredProducts;
+        return structuredFundBlockCampaign;
       } catch (error) {
         console.log(error);
       }
 }
 
 
-export async function getSellers() {
-    const greenContract = await getContract();
-    try {
-        var sellers = await greenContract.getallSeller();
-        const structuredSellers = sellers.map((seller) => ({
-            id: seller.sellerId,
-            address: seller.sellerAddress,
-            name: seller.name,
-            location: seller.location,
-            mail: seller.mail,
-            payout: seller.totalPayout,
-            totalWeight: seller.recycledWeight,
-            recycled: seller.recycled
-        }));
-
-        return structuredSellers;
-      } catch (error) {
-        console.log(error);
-      }
-}

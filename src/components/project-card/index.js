@@ -2,6 +2,8 @@ import viralIMG from "../../assets/viralIMG.png";
 import Bar from "../Bar";
 import { FundBlockContext } from "../../store/fundBlockContext";
 import { useContext } from "react";
+import {donateToCampaign} from '../../contracts/call';
+
 
 const ProjectCard = () => {
   const {funds} = useContext(FundBlockContext);
@@ -26,7 +28,7 @@ const ProjectCard = () => {
           <button
             className="px-5 py-2.5 w-full text-neutral-900 text-base sm:text-xl font-semibold bg-gradient-to-r 
         from-emerald-300 to-cyan-300 rounded-lg"
-          >
+        onClick={() => donateToCampaign()}>
             Donate
           </button>
         </div>
