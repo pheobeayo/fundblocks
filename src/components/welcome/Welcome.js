@@ -56,7 +56,7 @@ const Welcome = () => {
         </div>
         <div className="py-[40px]">
           <Link to="/create-project">
-            <button className="bg-gradient-to-r from-[#69FEB0] to-[#5DE4F7] px-5 py-2.5  text-white rounded-sm text-center ">
+            <button className="bg-gradient-to-r from-[#69FEB0] to-[#5DE4F7] px-5 py-2.5  text-black rounded-sm text-center ">
               Launch Project
             </button>
           </Link>
